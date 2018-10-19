@@ -1,0 +1,139 @@
+header{
+	position: absolute;
+	z-index: 2;
+	color:#f2db52;
+	opacity:0.6;
+	width:80%;
+	font-family: 'Quicksand', sans-serif;
+	left: 50%;
+  transform: translateX(-50%);
+	margin-top: 10px;
+}
+
+ul{
+	width:100%;
+}
+
+li{
+	float: left;
+	width:19.5%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+.logo{
+	width:20%;
+	float: left;
+	padding:10px 30px;
+	box-sizing: border-box;
+	margin:0 1%;
+}
+
+.top{
+	position: relative;
+	width:100%;
+	height:100vh;
+	overflow: hidden;
+}
+
+.bg{
+	height:100vh;
+	width:100vw;
+	background:url("../img/bg.png");
+	background-size: cover;
+	position: absolute;
+	background-attachment: fixed;
+}
+
+.sun{
+	height:100vh;
+	width:100vw;
+	background:url("../img/zon.png");
+	background-size: cover;
+	position: absolute;
+	background-position: center;
+}
+
+.city{
+	height:100vh;
+	width:100vw;
+	background:url("../img/city.png");
+	background-size: cover;
+	position: absolute;
+	background-position: bottom;
+}
+
+.air{
+	height:100vh;
+	width:100vw;
+	background:url("../img/air.png");
+	background-size: cover;
+	position: absolute;
+	background-position: bottom;
+}
+
+.forest{
+	position: relative;
+	width:100%;
+	height:auto;
+	margin-top:-15vh;
+}
+
+.hills{
+	height:100vh;
+	width:100%;
+	background:url("../img/hills.png");
+	background-size:100%;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.trees{
+	height:100vh;
+	width:100%;
+	background:url("../img/trees.png");
+	background-size:100%;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-top: -40vh;
+}
+
+.green_hills{
+	height:100vh;
+	width:100%;
+	background:url("../img/green_hills.png");
+	background-size:100%;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-top: 7vh;
+}
+
+.nerdic{
+	text-align: center;
+	padding-top:50vh;
+	width:100%;
+	float: left;
+}
+
+h1{
+	font-size: 42px;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	z-index: 20;
+	position: absolute;
+	text-align: center;
+	width:100%;
+}
+
+p{
+	font-family: sans-serif;
+	color:white;
+	margin-top: 80px;
+	z-index: 20;
+	position: absolute;
+	width:60%;
+	margin-left: 20%;
+	line-height: 2.6;
+}
