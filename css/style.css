@@ -24,6 +24,9 @@ header{
   transform: translateX(-50%);
 	margin-top: 10px;
 }
+#hover:hover{
+    border-bottom: 2px solid #f2db52;
+}
 
 ul{
 	width:100%;
