@@ -71,31 +71,6 @@ li a{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
-<<<<<<< HEAD
-
-	background-repeat: no-repeat;
-||||||| merged common ancestors
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
-=======
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
->>>>>>> master
-||||||||| merged common ancestors
-=========
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
-	background-repeat: no-repeat;
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
-=======
->>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
 }
 
 .sun{
@@ -115,17 +90,13 @@ li a{
 	background:url("../img/bird1.png");
 	background-position: center;
 	background-size: 100%;
-
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-    animation-duration: 20s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: float;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 }
 
@@ -133,12 +104,10 @@ li a{
 	background:url("../img/bird2.png");
 	background-position: center;
 	background-size: 100%;
-    overflow-x: hidden;
-    animation-duration: 15s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 }
 
@@ -146,16 +115,14 @@ li a{
 	background:url("../img/bird3.png");
 	background-position: center;
 	background-size: 100%;
-    animation-duration: 10s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-    animation-duration: 12s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 
 }
@@ -165,13 +132,10 @@ li a{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-    overflow-x: hidden;
-    animation-duration: 13s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float2;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  animation-duration: 13s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float2;
 
 }
 
@@ -181,33 +145,23 @@ li a{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
-    animation-duration: 15s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
 	background-position: center;
-<<<<<<< HEAD
-	background-size: 100%;
 	background-repeat: no-repeat;
-    overflow-x: hidden;
-    animation-duration: 20s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float3;
-    overflow-x: hidden;
-||||||| merged common ancestors
-	background-size: 100%
-=======
+  overflow-x: hidden;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
 	background-size: 100%;
->>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
-	background-repeat: no-repeat;
 }
 
 .balloon2{
@@ -215,13 +169,11 @@ li a{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-    overflow-x: hidden;
-    animation-duration: 18s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float3;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  overflow-x: hidden;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
 }
 
 .hills{
