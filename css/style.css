@@ -56,77 +56,150 @@ li a{
 	margin:0 1%;
 }
 
-.top{
+/* City */
+
+.skyline{
 	position: relative;
 	width:100%;
 	height:100vh;
-	overflow: hidden;
-}
-
-.bg{
 	background:url("../img/bg.png");
+<<<<<<< HEAD
 	background-position: center;
+||||||| merged common ancestors
+=======
+	background-position: center;
+	background-attachment: fixed;
+>>>>>>> master
 }
 
 .sun{
-
 	background:url("../img/zon.png");
 	background-position: center;
 }
 
 .city{
 	background:url("../img/city.png");
-	background-position: bottom;
+	background-size: 100%;
+	background-position: center bottom -2vh;
+	background-repeat:no-repeat;
 }
 
 .bird1{
 	background:url("../img/bird1.png");
+<<<<<<< HEAD
 	background-position:center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .bird2{
 	background:url("../img/bird2.png");
+<<<<<<< HEAD
 	background-position:center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .bird3{
 	background:url("../img/bird3.png");
+<<<<<<< HEAD
 	background-position:center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .bird4{
 	background:url("../img/bird4.png");
+<<<<<<< HEAD
 	background-position:center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .bird5{
 	background:url("../img/bird5.png");
+<<<<<<< HEAD
 	background-position:center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
+<<<<<<< HEAD
 	background-position: center;
+||||||| merged common ancestors
+	background-position: bottom;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
+<<<<<<< HEAD
 	background-position: center;
 }
 
 .forest{
 	margin-top:-20vh;
+||||||| merged common ancestors
+	background-position: bottom;
+}
+
+.forest{
+	margin-top:-20vh;
+=======
+	background-position: center;
+	background-size: 100%;
+>>>>>>> master
 }
 
 .hills{
 	background:url("../img/hillst.png");
 	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-top:220px;
 }
 
 .trees{
 	background:url("../img/trees.png");
 	background-size:100%;
-	margin-top: -40vh;
+	background-position: bottom center;
+	margin-top:275px;
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+
+/* Forest */
+
+.forest{
+	background:url("../img/green_hillst.png");
+	background-position: center top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height:110vh;
 }
 
 .green_hills{
@@ -135,11 +208,12 @@ li a{
 	z-index: 2;
 }
 
-.nerdic{
-	text-align: center;
-	padding-top:50vh;
-	width:100%;
-	float: left;
+.about{
+	position: absolute;
+  left: 50%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+	width:1024px;
 }
 
 h1{
@@ -147,7 +221,6 @@ h1{
 	color: white;
 	font-family: 'Patrick Hand', cursive;
 	z-index: 20;
-	position: absolute;
 	text-align: center;
 	width:100%;
 }
@@ -155,11 +228,10 @@ h1{
 p{
 	font-family: sans-serif;
 	color:white;
-	margin-top: 100px;
+	margin-top: 30px;
 	z-index: 20;
-	position: absolute;
-	width:60%;
-	margin-left: 20%;
+	width:100%;
+	text-align: center;
 	line-height: 2.6;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
