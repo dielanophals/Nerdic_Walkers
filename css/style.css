@@ -96,7 +96,8 @@ li a{
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    animation-name: bird_1;
+    animation-name: float;
+    overflow-x: hidden;
 >>>>>>> master
 }
 
@@ -110,6 +111,11 @@ li a{
 	background-position: center;
 	background-size: 100%;
 >>>>>>> master
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    overflow-x: hidden;
 }
 
 .bird3{
@@ -121,6 +127,11 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    overflow-x: hidden;
 >>>>>>> master
 }
 
@@ -262,4 +273,16 @@ p{
 	background:url("../img/walkers.png");
 	background-position: top;
 	margin-top: -500px;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(15px)  rotate(10deg);
+    }
+    100%{
+        transform: translateY(0px)  rotate(0deg);
+    }
 }
