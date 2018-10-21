@@ -69,12 +69,18 @@ li a{
 =======
 	background-position: center;
 	background-attachment: fixed;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
 .sun{
 	background:url("../img/zon.png");
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .city{
@@ -93,11 +99,16 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: float;
     overflow-x: hidden;
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -110,12 +121,17 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
 >>>>>>> master
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: float;
     overflow-x: hidden;
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
+>>>>>>> master
 }
 
 .bird3{
@@ -127,11 +143,16 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
     animation-duration: 10s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: float;
     overflow-x: hidden;
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -144,6 +165,11 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -156,6 +182,11 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -168,6 +199,11 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -188,6 +224,11 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+	background-repeat: no-repeat;
 >>>>>>> master
 }
 
@@ -196,6 +237,7 @@ li a{
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	margin-top:220px;
+	background-repeat: no-repeat;
 }
 
 .trees{
@@ -255,24 +297,27 @@ p{
 
 .mountains_section{
 	background:url("../img/mountainair.png");
-	height:120vh
+	height:120vh;
 }
 
 .mountains{
 	background:url("../img/mountains.png");
-	background-position: center bottom -10vh;
+	background-position: center bottom -15vh;
 	height:120vh;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .clouds{
 	background:url("../img/clouds.png");
+	background-size: 100%;
 }
 
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -500px;
+	margin-top: -50vh;
+	background-size: 100%;
 }
 
 @keyframes float {
