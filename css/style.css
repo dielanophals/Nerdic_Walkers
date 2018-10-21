@@ -100,6 +100,16 @@ li a{
 	background-position: bottom;
 }
 
+.balloon1{
+	background:url("../img/balloon1.png");
+	background-position: bottom;
+}
+
+.balloon2{
+	background:url("../img/balloon2.png");
+	background-position: bottom;
+}
+
 .forest{
 	margin-top:-20vh;
 }
