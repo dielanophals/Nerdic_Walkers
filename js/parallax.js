@@ -10,7 +10,7 @@ function parallaxScroll(){
   $('.sun').css('top',(0+(scrolled*.5))+'px');
   $('.trees').css('top',(0+(scrolled*.15))+'px');
   $('header').css('top',(0+(scrolled*.55))+'px');
-  $('.clouds').css('top',(-150+(scrolled*.1))+'px');
+  $('.mountain_air').css('top',(-150+(scrolled*.1))+'px');
   $('.mountains').css('top',(-250+(scrolled*.15))+'px');
-	$('.walkers').css('top',(-500+(scrolled*.25))+'px');
+	$('.walkers').css('top',(-400+(scrolled*.25))+'px');
 }
