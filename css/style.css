@@ -28,6 +28,11 @@ header{
   transform: translateX(-50%);
 	margin-top: 10px;
 }
+a:hover{
+    border-bottom: 2px solid #f2db52;
+}
+
+
 
 ul{
 	width:100%;
@@ -66,25 +71,8 @@ li a{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
-=======
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
->>>>>>> master
-||||||||| merged common ancestors
-=========
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+
 	background-repeat: no-repeat;
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .sun{
