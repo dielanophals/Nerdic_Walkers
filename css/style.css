@@ -75,13 +75,33 @@ li a{
 	background-position: bottom;
 }
 
-.air{
-	background:url("../img/air.png");
+.bird1{
+	background:url("../img/bird1.png");
+	background-position: bottom;
+}
+
+.bird2{
+	background:url("../img/bird2.png");
+	background-position: bottom;
+}
+
+.bird3{
+	background:url("../img/bird3.png");
+	background-position: bottom;
+}
+
+.bird4{
+	background:url("../img/bird4.png");
+	background-position: bottom;
+}
+
+.bird5{
+	background:url("../img/bird5.png");
 	background-position: bottom;
 }
 
 .forest{
-	margin-top:-15vh;
+	margin-top:-20vh;
 }
 
 .hills{
