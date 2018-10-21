@@ -62,11 +62,13 @@ li a{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .sun{
 	background:url("../img/zon.png");
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .city{
@@ -80,42 +82,49 @@ li a{
 	background:url("../img/bird1.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .bird2{
 	background:url("../img/bird2.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .bird3{
 	background:url("../img/bird3.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .bird4{
 	background:url("../img/bird4.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .bird5{
 	background:url("../img/bird5.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 .hills{
@@ -123,6 +132,7 @@ li a{
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	margin-top:220px;
+	background-repeat: no-repeat;
 }
 
 .trees{
@@ -182,22 +192,25 @@ p{
 
 .mountains_section{
 	background:url("../img/mountainair.png");
-	height:120vh
+	height:120vh;
 }
 
 .mountains{
 	background:url("../img/mountains.png");
-	background-position: center bottom -10vh;
+	background-position: center bottom -15vh;
 	height:120vh;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .clouds{
 	background:url("../img/clouds.png");
+	background-size: 100%;
 }
 
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -500px;
+	margin-top: -50vh;
+	background-size: 100%;
 }
