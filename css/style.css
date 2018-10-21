@@ -182,19 +182,22 @@ p{
 
 .mountains_section{
 	background:url("../img/mountainair.png");
-	overflow:hidden;
+	height:120vh
 }
 
 .mountains{
 	background:url("../img/mountains.png");
-	background-position: bottom;
+	background-position: center bottom -10vh;
+	height:120vh;
+	background-repeat: no-repeat;
 }
 
-.mountain_air{
+.clouds{
 	background:url("../img/clouds.png");
 }
 
 .walkers{
 	background:url("../img/walkers.png");
-	background-position: bottom;
+	background-position: top;
+	margin-top: -500px;
 }
