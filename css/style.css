@@ -157,11 +157,10 @@ li a{
 	background-size: 100%;
 	background-repeat: no-repeat;
     overflow-x: hidden;
-    animation-duration: 10s;
+    animation-duration: 13s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-    animation-name: float;
-    animation-delay: 1.5s;
+    animation-name: float2;
     overflow-x: hidden;
 	background-repeat: no-repeat;
 
@@ -173,7 +172,7 @@ li a{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
-    animation-duration: 10s;
+    animation-duration: 17s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: float;
@@ -290,7 +289,19 @@ p{
         transform: translateY(0px) rotate(0deg);
     }
     50%{
-        transform: translateY(15px)  rotate(10deg);
+        transform: translateY(10px)  rotate(8deg);
+    }
+    100%{
+        transform: translateY(0px)  rotate(0deg);
+    }
+}
+
+@keyframes float2 {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(10px)  rotate(-8deg);
     }
     100%{
         transform: translateY(0px)  rotate(0deg);
