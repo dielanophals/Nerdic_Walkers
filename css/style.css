@@ -182,7 +182,14 @@ li a{
 .balloon1{
 	background:url("../img/balloon1.png");
 	background-position: center;
-	background-size: 100%
+	background-size: 100%;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float3;
+    overflow-x: hidden;
 	background-repeat: no-repeat;
 }
 
@@ -190,6 +197,13 @@ li a{
 	background:url("../img/balloon2.png");
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation-duration: 15s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float3;
+    overflow-x: hidden;
 	background-repeat: no-repeat;
 }
 
@@ -299,6 +313,17 @@ p{
     }
     50%{
         transform: translateY(12px)  rotate(-10deg);
+    }
+    100%{
+        transform: translateY(0px)  rotate(0deg);
+    }
+}
+@keyframes float3 {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(-2px)  rotate(-4deg);
     }
     100%{
         transform: translateY(0px)  rotate(0deg);
