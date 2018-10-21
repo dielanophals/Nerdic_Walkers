@@ -24,7 +24,7 @@ header{
   transform: translateX(-50%);
 	margin-top: 10px;
 }
-#hover:hover{
+li a:hover{
     border-bottom: 2px solid #f2db52;
 }
 
@@ -65,6 +65,7 @@ li a{
 
 .bg{
 	background:url("../img/bg.png");
+	background-position: center;
 }
 
 .sun{
@@ -80,37 +81,37 @@ li a{
 
 .bird1{
 	background:url("../img/bird1.png");
-	background-position: bottom;
+	background-position:center;
 }
 
 .bird2{
 	background:url("../img/bird2.png");
-	background-position: bottom;
+	background-position:center;
 }
 
 .bird3{
 	background:url("../img/bird3.png");
-	background-position: bottom;
+	background-position:center;
 }
 
 .bird4{
 	background:url("../img/bird4.png");
-	background-position: bottom;
+	background-position:center;
 }
 
 .bird5{
 	background:url("../img/bird5.png");
-	background-position: bottom;
+	background-position:center;
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
-	background-position: bottom;
+	background-position: center;
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
-	background-position: bottom;
+	background-position: center;
 }
 
 .forest{
