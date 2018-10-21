@@ -93,6 +93,10 @@ li a{
 =======
 	background-position: center;
 	background-size: 100%;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: bird_1;
 >>>>>>> master
 }
 
