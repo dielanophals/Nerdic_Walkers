@@ -24,9 +24,6 @@ header{
   transform: translateX(-50%);
 	margin-top: 10px;
 }
-li a:hover{
-    border-bottom: 2px solid #f2db52;
-}
 
 ul{
 	width:100%;
@@ -63,18 +60,27 @@ li a{
 	width:100%;
 	height:100vh;
 	background:url("../img/bg.png");
-<<<<<<< HEAD
-	background-position: center;
-||||||| merged common ancestors
-=======
 	background-position: center;
 	background-attachment: fixed;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .sun{
@@ -92,13 +98,9 @@ li a{
 
 .bird1{
 	background:url("../img/bird1.png");
-<<<<<<< HEAD
-	background-position:center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -108,19 +110,32 @@ li a{
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    overflow-x: hidden;
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .bird2{
 	background:url("../img/bird2.png");
-<<<<<<< HEAD
-	background-position:center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> master
     animation-duration: 1s;
@@ -130,19 +145,32 @@ li a{
     overflow-x: hidden;
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    overflow-x: hidden;
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .bird3{
 	background:url("../img/bird3.png");
-<<<<<<< HEAD
-	background-position:center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     animation-duration: 10s;
     animation-fill-mode: both;
@@ -152,84 +180,125 @@ li a{
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    animation-duration: 10s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float;
+    overflow-x: hidden;
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .bird4{
 	background:url("../img/bird4.png");
-<<<<<<< HEAD
-	background-position:center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .bird5{
 	background:url("../img/bird5.png");
-<<<<<<< HEAD
-	background-position:center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
-<<<<<<< HEAD
-	background-position: center;
-||||||| merged common ancestors
-	background-position: bottom;
-=======
 	background-position: center;
 	background-size: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
-<<<<<<< HEAD
-	background-position: center;
-}
-
-.forest{
-	margin-top:-20vh;
-||||||| merged common ancestors
-	background-position: bottom;
-}
-
-.forest{
-	margin-top:-20vh;
-=======
 	background-position: center;
 	background-size: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 =======
-	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
 >>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 }
 
 .hills{
@@ -316,18 +385,6 @@ p{
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -50vh;
+	margin-top: -70vh;
 	background-size: 100%;
-}
-
-@keyframes float {
-    0%{
-        transform: translateY(0px) rotate(0deg);
-    }
-    50%{
-        transform: translateY(15px)  rotate(10deg);
-    }
-    100%{
-        transform: translateY(0px)  rotate(0deg);
-    }
 }
