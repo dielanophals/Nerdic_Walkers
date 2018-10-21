@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 .relative{
 	position: relative;
 	width:100%;
@@ -244,11 +248,19 @@ li a{
 >>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
 	background-repeat: no-repeat;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 ||||||| merged common ancestors
 >>>>>>>>> Temporary merge branch 2
 =======
 >>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+||||||| merged common ancestors
+=======
+	animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
+>>>>>>> master
 }
 
 .balloon1{
@@ -387,4 +399,16 @@ p{
 	background-position: top;
 	margin-top: -70vh;
 	background-size: 100%;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(15px)  rotate(10deg);
+    }
+    100%{
+        transform: translateY(0px)  rotate(0deg);
+    }
 }
