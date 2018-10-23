@@ -5,6 +5,7 @@
         
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
         
         <meta name="keywords" content="Digital,Moodboard,smartcity,mechelen,mobiliteit"/>
         <meta name="description" content="Digital Moodboard - SmartCity Mechelen MMobiliteit"/>
@@ -15,24 +16,9 @@
         <link rel="icon" type="icon" href="https://weareimd.be/favicon/favicon.ico"/>
         
         <script src="js/jquery.min.js"></script>
-        <script src="js/masonry.pkgd.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
         <script>
 			$(document).ready(function() {
-				
-				var img_array=[ 
-					'1.jpg',
-					'2.jpg',
-					'3.jpg',
-					'4.png',
-					'6.png'
-				];
-				
-				var i;
-				for( i = 0; i < img_array.length; i++ ){
-					$("#gallery").append('<div class="grid-item"><img src="img/' + img_array[i] + '" alt="Foto ' + img_array[i] + '"></div>');
-                    console.log(12);
-				};
 				
 				var $grid = $('.grid').imagesLoaded( function() {
 					$grid.masonry({
@@ -42,6 +28,7 @@
 						gutter: 10,
 					}); 
 				});
+
 				
 				$("img").mousedown(function(){
 					return false;
@@ -53,10 +40,47 @@
 	</head>
 
 	<body>
-        <main> 
-            <div id="gallery" class="grid">
-            	<div class="grid-sizer"></div>
-            </div> 
+       <header>
+           <img src="img/Logo.png" alt="Nerdic Walkers">
+           <a href="../index.html">terug naar website</a>
+       </header>
+        <main class="grid">
+           <div class="grid-sizer"></div>
+
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/1.jpg" data-lightbox="example-set" data-title="Tshirt - klein logo - voorkant">
+            	    <img class="example-image" src="img/1.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/2.jpg" data-lightbox="example-set" data-title="Tshirt - groot logo - voorkant">
+            	    <img class="example-image" src="img/2.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/3.jpg" data-lightbox="example-set" data-title="Tshirt - illustratie rond - voorkant & klein logo - achterkant">
+            	    <img class="example-image" src="img/3.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/4.png" data-lightbox="example-set" data-title="Sweater - illustratie rond - voorkant">
+            	    <img class="example-image" src="img/4.png" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/6.png" data-lightbox="example-set" data-title="Pet - logo">
+            	    <img class="example-image" src="img/6.png" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
     	</main>
     </body>
 </html>
