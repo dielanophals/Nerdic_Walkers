@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nerdic Walkers Merchandise</title> 
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+        <meta name="keywords" content="Digital,Moodboard,smartcity,mechelen,mobiliteit"/>
+        <meta name="description" content="Digital Moodboard - SmartCity Mechelen MMobiliteit"/>
+        <meta name="author" content="Yannis W"/>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="icon" href="https://weareimd.be/favicon/favicon.ico"/>
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script>
+			$(document).ready(function() {
+				
+				var img_array=[ 
+					'1.jpg',
+					'2.jpg',
+					'3.jpg',
+					'4.png',
+					'6.png'
+				];
+				
+				var i;
+				for( i = 0; i < img_array.length; i++ ){
+					$("#gallery").append('<div class="grid-item"><img src="img/' + img_array[i] + '" alt="Foto ' + img_array[i] + '"></div>');
+                    console.log(12);
+				};
+				
+				var $grid = $('.grid').imagesLoaded( function() {
+					$grid.masonry({
+						itemSelector: '.grid-item',
+						percentPosition: true,
+						columnWidth: '.grid-sizer',
+						gutter: 10,
+					}); 
+				});
+				
+				$("img").mousedown(function(){
+					return false;
+				});
+			});
+		</script>
+		
+		
+	</head>
+
+	<body>
+        <main> 
+            <div id="gallery" class="grid">
+            	<div class="grid-sizer"></div>
+            </div> 
+    	</main>
+    </body>
+</html>
