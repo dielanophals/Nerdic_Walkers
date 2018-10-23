@@ -328,14 +328,14 @@ p{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
 #flex{
     display: flex;
     flex-direction: column;
     width: 70%;
     margin:0px auto;
-    padding-top: 280px;
+    padding-top: 260px;
     }
 
 
