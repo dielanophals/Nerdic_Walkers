@@ -307,6 +307,10 @@ p{
     overflow-x: hidden;
   }
 
+	nav li, .logo{
+		width:19.6%;
+	}
+
 	.skyline{
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -334,7 +338,7 @@ p{
 		width:80%;
 	}
 
-	nav li, .logo{
-		width:19.6%;
+	.trees{
+		margin-top:80px;
 	}
 }
