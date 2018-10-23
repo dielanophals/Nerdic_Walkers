@@ -244,7 +244,18 @@ p{
 
 .mountains_section{
 	background:url("../img/mountainair.png");
-	height:120vh;
+	height:150vh;
+	text-align: center;
+	background-size: cover;
+}
+
+.activity{
+	width:1024px;
+	margin: auto;
+	position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+	margin-top:175px;
 }
 
 .mountains{
@@ -253,17 +264,19 @@ p{
 	height:120vh;
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin-top:400px;
 }
 
 .clouds{
 	background:url("../img/clouds.png");
 	background-size: 100%;
+	margin-top:400px;
 }
 
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -70vh;
+	margin-top: -60vh;
 	background-size: 100%;
 }
 
