@@ -141,6 +141,8 @@ li a{
 	background:url("../img/bird4.png");
 	background-position: center;
 	background-size: 100%;
+    width: 100%;
+    min-width: 200px;
 	background-repeat: no-repeat;
     overflow-x: hidden;
     animation-duration: 13s;
@@ -185,6 +187,7 @@ li a{
 	background:url("../img/balloon2.png");
 	background-position: center;
 	background-size: 100%;
+    min-width: 100px;
 	background-repeat: no-repeat;
     overflow-x: hidden;
     animation-duration: 18s;
@@ -226,15 +229,18 @@ li a{
 	background:url("../img/green_hillst.png");
 	margin-top: 7vh;
 	z-index: 2;
+    
 }
 
-.about{
-	position: absolute;
-  left: 50%;
-  top: 53%;
-  transform: translate(-50%, -50%);
-	width:1024px;
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin:0px auto;
+    padding-top: 270px;
 }
+
 
 h1{
 	font-size: 56px;
@@ -317,3 +323,4 @@ p{
         transform: translateY(0px)  rotate(0deg);
     }
 }
+
