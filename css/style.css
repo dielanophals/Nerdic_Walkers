@@ -1,3 +1,5 @@
+   
+
 body{
 	overflow-x: hidden;
 }
@@ -238,7 +240,7 @@ li a{
     flex-direction: column;
     width: 70%;
     margin:0px auto;
-    padding-top: 250px;
+    padding-top: 155px;
 }
 
 
@@ -321,6 +323,28 @@ p{
     }
     100%{
         transform: translateY(0px)  rotate(0deg);
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin:0px auto;
+    padding-top: 280px;
+    }
+
+
+h1{
+	font-size: 56px;
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+	z-index: 20;
+	text-align: center;
     }
 }
 
