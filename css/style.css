@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-   
 
-||||||| merged common ancestors
-=======
 html{
 	scroll-behavior: smooth;
 }
 
->>>>>>> master
+
 body{
 	overflow-x: hidden;
 }
@@ -80,37 +76,7 @@ li a{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
-<<<<<<< HEAD
-
 	background-repeat: no-repeat;
-||||||| merged common ancestors
-<<<<<<< HEAD
-
-	background-repeat: no-repeat;
-||||||| merged common ancestors
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
-=======
-||||||| merged common ancestors
-<<<<<<<<< Temporary merge branch 1
->>>>>>> master
-||||||||| merged common ancestors
-=========
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
-	background-repeat: no-repeat;
-<<<<<<< HEAD
->>>>>>> master
-||||||| merged common ancestors
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
-=======
->>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
-=======
->>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
 }
 
 .sun{
@@ -197,15 +163,8 @@ li a{
 .balloon1{
 	background:url("../img/balloon1.png");
 	background-position: center;
-<<<<<<< HEAD
 	background-size: 100%;
-||||||| merged common ancestors
-<<<<<<< HEAD
-	background-size: 100%;
-=======
->>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
 	background-repeat: no-repeat;
-<<<<<<< HEAD
     overflow-x: hidden;
     animation-duration: 20s;
     animation-fill-mode: both;
@@ -213,27 +172,21 @@ li a{
     animation-name: float3;
     overflow-x: hidden;
 	background-repeat: no-repeat;
-||||||| merged common ancestors
     overflow-x: hidden;
     animation-duration: 20s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-name: float3;
     overflow-x: hidden;
-||||||| merged common ancestors
-	background-size: 100%
-=======
+
 	background-size: 100%;
->>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
 	background-repeat: no-repeat;
-=======
   overflow-x: hidden;
   animation-duration: 20s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-name: float3;
 	background-size: 100%;
->>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
 }
 
 .balloon2{
@@ -398,9 +351,6 @@ h1{
     }
 }
 
-||||||| merged common ancestors
-=======
-
 @media screen and (max-width: 1024px) {
   html {
     overflow-x: hidden;
@@ -441,4 +391,3 @@ h1{
 		margin-top:80px;
 	}
 }
->>>>>>> master
