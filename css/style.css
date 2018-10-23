@@ -1,5 +1,5 @@
 html{
-	scroll-behavior: smooth;
+/*	scroll-behavior: smooth;*/
 }
 
 body{
@@ -29,6 +29,7 @@ header{
 	max-width: 100%;
 	font-family: 'Patrick Hand', cursive;
 	left: 50%;
+  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 	margin-top: 10px;
 }
@@ -44,6 +45,7 @@ li{
 
 	margin-top: 45px;
 	text-transform: uppercase;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -61,10 +63,11 @@ a:hover{
 	width:205px;
 	float: left;
 	padding:10px 30px 10px 0;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-/* City */
+/* CITY */
 
 .skyline{
 	position: relative;
@@ -92,7 +95,9 @@ a:hover{
 	background:url("../img/bird1.png");
 	background-position: center;
 	background-size: 100%;
+    -webkit-animation-duration: 6s;
     animation-duration: 6s;
+    -webkit-animation-name: float;
     animation-name: float;
 	background-repeat: no-repeat;
 }
@@ -101,7 +106,9 @@ a:hover{
 	background:url("../img/bird2.png");
 	background-position: center;
 	background-size: 100%;
+    -webkit-animation-duration: 5s;
     animation-duration: 5s;
+    -webkit-animation-name: float3;
     animation-name: float3;
 	background-repeat: no-repeat;
 }
@@ -110,7 +117,9 @@ a:hover{
 	background:url("../img/bird3.png");
 	background-position: center;
 	background-size: 100%;
+    -webkit-animation-name: float;
     animation-name: float;
+    -webkit-animation-duration: 8s;
     animation-duration: 8s;
     animation-name: float;
 	background-repeat: no-repeat;
@@ -121,7 +130,9 @@ a:hover{
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
+    -webkit-animation-duration: 8s;
     animation-duration: 8s;
+    -webkit-animation-name: float3;
     animation-name: float3;
 }
 
@@ -131,27 +142,33 @@ a:hover{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
+    -webkit-animation-duration: 6s;
     animation-duration: 6s;
+    -webkit-animation-name: float3;
     animation-name: float3;
 }
 
 .balloon1{
 	background:url("../img/balloon1.png");
-	background-position: center;
+	background-position: center -20vh;
 	background-repeat: no-repeat;
     overflow-x: hidden;
+    -webkit-animation-duration: 8s;
     animation-duration: 8s;
+    -webkit-animation-name: float2;
     animation-name: float2;
 	background-size: 100%;
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
-	background-position: center;
+	background-position: center -20vh;
 	background-size: 100%;
 	background-repeat: no-repeat;
     overflow-x: hidden;
+    -webkit-animation-duration: 8s;
     animation-duration: 8s;
+    -webkit-animation-name: float2;
     animation-name: float2;
 }
 
@@ -172,7 +189,7 @@ a:hover{
 	z-index: 2;
 }
 
-/* Forest */
+/* FOREST */
 
 .forest{
 	background:url("../img/green_hillst.png");
@@ -192,6 +209,7 @@ a:hover{
 	position: absolute;
   left: 50%;
   top: 53%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 	width:1024px;
 }
@@ -217,6 +235,8 @@ p{
 	font-size: 20px;
 }
 
+/* MOUNTAINS */
+
 .mountains_section{
 	background:url("../img/mountainair.png");
 	height:120vh;
@@ -224,8 +244,8 @@ p{
 
 .mountains{
 	background:url("../img/mountains.png");
-	background-position: center bottom -15vh;
-	height:120vh;
+	background-position: center bottom -30vh;
+	height: 120vh;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
@@ -238,30 +258,49 @@ p{
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -70vh;
+	margin-top: -65vh;
 	background-size: 100%;
 }
 
 /* ANIMATIONS */
 
 .animate{
+    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     }
 
+@-webkit-keyframes float {
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+    50%{ -webkit-transform: translateY(10px); transform: translateY(10px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+}
+
 @keyframes float {
-    0%{ transform: translateY(0px); }
-    50%{ transform: translateY(10px); }
-    100%{ transform: translateY(0px); }
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+    50%{ -webkit-transform: translateY(10px); transform: translateY(10px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+}
+
+@-webkit-keyframes float2 {
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px) }
+    50%{ -webkit-transform: translateY(15px); transform: translateY(15px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px) }
 }
 
 @keyframes float2 {
-    0%{ transform: translateY(0px) }
-    50%{ transform: translateY(15px); }
-    100%{ transform: translateY(0px) }
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px) }
+    50%{ -webkit-transform: translateY(15px); transform: translateY(15px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px) }
+}
+@-webkit-keyframes float3 {
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+    50%{ -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
 }
 @keyframes float3 {
-    0%{ transform: translateY(0px); }
-    50%{ transform: translateY(-10px); }
-    100%{ transform: translateY(0px); }
+    0%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
+    50%{ -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+    100%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
 }
