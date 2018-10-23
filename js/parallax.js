@@ -14,3 +14,12 @@ function parallaxScroll(){
   $('.mountains').css('top',(-250+(scrolled*.15))+'px');
 	$('.walkers').css('top',(-400+(scrolled*.25))+'px');
 }
+
+$(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 500) {
+            $(".arrow_link").addClass("scrolled");
+        } else {
+            $(".arrow_link").removeClass("scrolled");
+        }
+    });

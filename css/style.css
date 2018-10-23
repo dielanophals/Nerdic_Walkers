@@ -267,6 +267,23 @@ p{
 	background-size: 100%;
 }
 
+.arrow{
+	position: fixed;
+	z-index: 5;
+	width:50px;
+	bottom:30px;
+	right:30px;
+}
+
+.arrow_link{
+	opacity: 0;
+	transition: .3s;
+}
+
+.scrolled{
+	opacity: 1;
+}
+
 @keyframes float {
     0%{
         transform: translateY(0px) rotate(0deg);
