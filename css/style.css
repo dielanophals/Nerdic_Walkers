@@ -408,6 +408,10 @@ a:hover{
 		padding-left:50vw;
 	}
 
+	.balloon1, .balloon2{
+		background-position: center 15vh;
+	}
+
 	.forest{
 		background-size: cover;
 		height:70vh;
