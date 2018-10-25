@@ -36,6 +36,22 @@ header{
 	margin-top: 10px;
 }
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+a:hover{
+    border-bottom: 2px solid #f2db52;
+}
+
+=======
+a:hover{
+    border-bottom: 2px solid #f2db52;
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 09fb08033786a579ec3738b2ff0e14ceba456e7f
+>>>>>>> 5f175c9cfa6ac1d63eaaa2e9ab29c0075098ba9c
 ul{
 	width:100%;
 }

@@ -24,6 +24,7 @@ header a{
     color: #fff;
     text-decoration: none;
     margin: 20px 0 0 0;
+    float: right;
     }
 
 header a:hover{
@@ -35,7 +36,6 @@ main{
 	margin: 0px 10%;
     padding: 150px 0 0 0;
 	}
-
 main section, .grid-sizer{
     width: 40%;
     margin: 20px 5%;
@@ -65,7 +65,10 @@ main section .button{
     }
 
 main section .button:hover{
-    background: #222;
+    background: #f2db52;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
     }
 #flex{
     display: flex;
@@ -87,6 +90,10 @@ main section .button:hover{
     flex-wrap: wrap;
     align-items:center;
 }
+    .grid-item{
+        margin-bottom:110px;
+    }
+
 }
 
 
