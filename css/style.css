@@ -238,9 +238,9 @@ h1{
 
 p{
 	width:80%;
-    margin: 30px 10% 0 10%;
-    z-index: 20;
-    color:white;
+  margin: 30px 10% 0 10%;
+  z-index: 20;
+  color:white;
 	text-align: center;
 	line-height: 1.8;
 	font-family: 'Lato', sans-serif;
@@ -286,7 +286,7 @@ a:hover{
 
 .mountains{
 	background:url("../img/mountains.png");
-	background-position: center bottom -15vh;
+	background-position: center top 25vh;
 	height:120vh;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -302,7 +302,7 @@ a:hover{
 .walkers{
 	background:url("../img/walkers.png");
 	background-position: top;
-	margin-top: -55vh;
+	margin-top: -40vh;
 	background-size: 100%;
 }
 
@@ -339,12 +339,12 @@ a:hover{
 /* ANIMATIONS */
 
 .animate{
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    z-index: -5;
-    }
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  z-index: -5;
+}
 
 @-webkit-keyframes float {
     0%{ -webkit-transform: translateY(0px); transform: translateY(0px); }
