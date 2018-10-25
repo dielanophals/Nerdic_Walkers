@@ -27,7 +27,7 @@ header{
 	opacity:0.6;
 	width:1046px;
 	max-width: 100%;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Walter Turncoat', cursive;
 	left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -51,8 +51,8 @@ ul li{
 
 ul li a{
 	color:#f2db52;
-    font-size: 26px;
-    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 	text-decoration: none;
     margin: 0;
 }
@@ -215,12 +215,13 @@ ul li a:hover{
 }
 
 .about{
+    width:1024px;
 	position: absolute;
     left: 50%;
     top: 53%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-	width:1024px;
+	text-align: center;
 }
 
 article{
@@ -228,9 +229,9 @@ article{
 }
 
 h1{
-	font-size: 56px;
+	font-size: 30px;
 	color: white;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Walter Turncoat', cursive;
 	z-index: 20;
 	text-align: center;
 	width:100%;
@@ -238,16 +239,15 @@ h1{
 
 p{
 	width:80%;
-  margin: 30px 10% 0 10%;
-  z-index: 20;
-  color:white;
-	text-align: center;
+    margin: 30px 10% 0 10%;
+    z-index: 20;
+    color:white;
 	line-height: 1.8;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 }
 
-a{
+.calltoaction{
     color: white;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
@@ -257,7 +257,18 @@ a{
     display: inline-block;
 }
 
-a:hover{
+.about a{
+}
+
+
+.activity a{
+}
+
+.about a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.activity a:hover{
     border-bottom: 2px solid #333;
 }
 
