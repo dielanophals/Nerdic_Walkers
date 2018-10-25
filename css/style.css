@@ -258,7 +258,7 @@ a{
 }
 
 a:hover{
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #fff;
 }
 
 .a-spacing{
@@ -282,7 +282,6 @@ a:hover{
 
 .activity h1, .activity p, .activity a{
 	color:#333;
-
 }
 
 .mountains{
