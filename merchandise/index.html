@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nerdic Walkers Merchandise</title> 
+        
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+        
+        <meta name="keywords" content="Digital,Moodboard,smartcity,mechelen,mobiliteit"/>
+        <meta name="description" content="Digital Moodboard - SmartCity Mechelen MMobiliteit"/>
+        <meta name="author" content="Yannis W"/>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="icon" href="https://weareimd.be/favicon/favicon.ico"/>
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script>
+			$(document).ready(function() {
+				
+				var $grid = $('.grid').imagesLoaded( function() {
+					$grid.masonry({
+						itemSelector: '.grid-item',
+						percentPosition: true,
+						columnWidth: '.grid-sizer',
+						gutter: 10,
+					}); 
+				});
+
+				
+				$("img").mousedown(function(){
+					return false;
+				});
+			});
+		</script>
+		
+		
+	</head>
+
+	<body>
+       <header>
+           <img src="img/Logo.png" alt="Nerdic Walkers">
+           <a href="../index.html">terug naar website</a>
+       </header>
+        <main class="grid">
+           <div class="grid-sizer"></div>
+
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/1.jpg" data-lightbox="example-set" data-title="Tshirt - klein logo - voorkant">
+            	    <img class="example-image" src="img/1.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/2.jpg" data-lightbox="example-set" data-title="Tshirt - groot logo - voorkant">
+            	    <img class="example-image" src="img/2.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/3.jpg" data-lightbox="example-set" data-title="Tshirt - illustratie rond - voorkant & klein logo - achterkant">
+            	    <img class="example-image" src="img/3.jpg" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/4.png" data-lightbox="example-set" data-title="Sweater - illustratie rond - voorkant">
+            	    <img class="example-image" src="img/4.png" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+            
+            <section class="grid-item">
+            	<a class="example-image-link" href="img/6.png" data-lightbox="example-set" data-title="Pet - logo">
+            	    <img class="example-image" src="img/6.png" alt=""/>
+                </a>
+                <a href="#" class="button">Add to cart</a>
+            </section>
+    	</main>
+    </body>
+</html>
