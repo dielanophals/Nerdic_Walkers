@@ -240,7 +240,7 @@ li a{
 #flex{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     margin:0px auto;
     padding-top: 155px;
 }
@@ -327,11 +327,8 @@ p{
         transform: translateY(0px)  rotate(0deg);
     }
 }
-<<<<<<< HEAD
 
-
-
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
 #flex{
     display: flex;
