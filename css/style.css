@@ -1,3 +1,9 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
 body{
 	overflow-x: hidden;
 }
@@ -33,7 +39,10 @@ a:hover{
     border-bottom: 2px solid #f2db52;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 09fb08033786a579ec3738b2ff0e14ceba456e7f
 ul{
 	width:100%;
 }
@@ -71,7 +80,6 @@ li a{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
-
 	background-repeat: no-repeat;
 }
 
@@ -92,17 +100,13 @@ li a{
 	background:url("../img/bird1.png");
 	background-position: center;
 	background-size: 100%;
-
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-    animation-duration: 20s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: float;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 }
 
@@ -110,12 +114,10 @@ li a{
 	background:url("../img/bird2.png");
 	background-position: center;
 	background-size: 100%;
-    overflow-x: hidden;
-    animation-duration: 15s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 }
 
@@ -123,16 +125,14 @@ li a{
 	background:url("../img/bird3.png");
 	background-position: center;
 	background-size: 100%;
-    animation-duration: 10s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-    animation-duration: 12s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 	background-repeat: no-repeat;
 
 }
@@ -141,14 +141,13 @@ li a{
 	background:url("../img/bird4.png");
 	background-position: center;
 	background-size: 100%;
+    width: 100%;
+    min-width: 200px;
 	background-repeat: no-repeat;
-    overflow-x: hidden;
-    animation-duration: 13s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float2;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  animation-duration: 13s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float2;
 
 }
 
@@ -158,12 +157,10 @@ li a{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	overflow-x: hidden;
-    animation-duration: 15s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float;
 
 }
 
@@ -179,20 +176,34 @@ li a{
     animation-name: float3;
     overflow-x: hidden;
 	background-repeat: no-repeat;
+    overflow-x: hidden;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float3;
+    overflow-x: hidden;
+
+	background-size: 100%;
+	background-repeat: no-repeat;
+  overflow-x: hidden;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
+	background-size: 100%;
 }
 
 .balloon2{
 	background:url("../img/balloon2.png");
 	background-position: center;
 	background-size: 100%;
+    min-width: 100px;
 	background-repeat: no-repeat;
-    overflow-x: hidden;
-    animation-duration: 18s;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-name: float3;
-    overflow-x: hidden;
-	background-repeat: no-repeat;
+  overflow-x: hidden;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
 }
 
 .hills{
@@ -207,7 +218,7 @@ li a{
 	background:url("../img/trees.png");
 	background-size:100%;
 	background-position: bottom center;
-	margin-top:275px;
+	margin-top:180px;
 	background-repeat: no-repeat;
 	z-index: 2;
 }
@@ -226,15 +237,18 @@ li a{
 	background:url("../img/green_hillst.png");
 	margin-top: 7vh;
 	z-index: 2;
+    
 }
 
-.about{
-	position: absolute;
-  left: 50%;
-  top: 53%;
-  transform: translate(-50%, -50%);
-	width:1024px;
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin:0px auto;
+    padding-top: 155px;
 }
+
 
 h1{
 	font-size: 56px;
@@ -316,4 +330,68 @@ p{
     100%{
         transform: translateY(0px)  rotate(0deg);
     }
+}
+<<<<<<< HEAD
+
+
+
+@media screen and (min-width: 600px) {
+
+#flex{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin:0px auto;
+    padding-top: 260px;
+    }
+
+
+h1{
+	font-size: 56px;
+	color: white;
+	font-family: 'Patrick Hand', cursive;
+	z-index: 20;
+	text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+
+	nav li, .logo{
+		width:19.6%;
+	}
+
+	.skyline{
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.city{
+		background-size: cover;
+	}
+
+	.hills{
+		margin-top:200px;
+	}
+
+	.bird1, .bird2, .bird3, .bird4, .bird5{
+		background-size: cover;
+		padding-left:50vw;
+	}
+
+	.forest{
+		background-size: cover;
+		height:70vh;
+	}
+
+	.about{
+		width:80%;
+	}
+
+	.trees{
+		margin-top:80px;
+	}
 }
