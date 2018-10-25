@@ -29,8 +29,8 @@ header{
 	max-width: 100%;
 	font-family: 'Patrick Hand', cursive;
 	left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 	margin-top: 10px;
 }
 
@@ -42,7 +42,6 @@ ul li{
 	float: left;
 	width:205px;
 	text-align: center;
-
 	margin-top: 40px;
 	text-transform: uppercase;
 	-webkit-box-sizing: border-box;
@@ -51,10 +50,10 @@ ul li{
 
 ul li a{
 	color:#f2db52;
-    font-size: 26px;
-    font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
 	text-decoration: none;
-    margin: 0;
+  margin: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 ul li a:hover{
@@ -249,24 +248,27 @@ p{
 	font-size: 20px;
 }
 
-a{
-    color: white;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 50px 0 0 0;
-    display: inline-block;
+.activity a{
+	color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 50px 0 0 0;
+  display: inline-block;
+	border: 2px solid #333;
+	padding:20px 25px;
+	border-radius: 3px;
 }
 
-a:hover{
-    border-bottom: 2px solid #333;
+.activity a:hover{
+	border: 2px solid #fff;
+	color: #fff;
 }
 
 .a-spacing{
-    margin: 50px 50px 0 0 !important;
+  margin: 50px 50px 0 0 !important;
 }
-
 
 /* ACTIVITY */
 
@@ -279,7 +281,7 @@ a:hover{
 
 .activity{
 	width: 60%;
-	margin: 175px 20% 0 20%;
+	margin: 150px 20% 0 20%;
 }
 
 .activity h1, .activity p, .activity a{
