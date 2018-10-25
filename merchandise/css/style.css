@@ -18,14 +18,12 @@ header{
 
 header img{
     height: 50px;
-    float: left;
     }
 
 header a{
     color: #fff;
     text-decoration: none;
     margin: 20px 0 0 0;
-    float: right;
     }
 
 header a:hover{
@@ -69,6 +67,12 @@ main section .button{
 main section .button:hover{
     background: #222;
     }
+#flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+}
 
 
 @media screen and (max-width: 800px){
@@ -77,6 +81,12 @@ main section .button:hover{
         width: 100%;
         margin: 20px 0 0 0;
         }
+    #flex{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items:center;
+}
 }
 
 
