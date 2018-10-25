@@ -80,7 +80,42 @@ ul li a:hover{
 	background:url("../img/bg.png");
 	background-position: center;
 	background-attachment: fixed;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<< HEAD
+
+	background-repeat: no-repeat;
+||||||| merged common ancestors
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+=======
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+>>>>>>> master
+||||||||| merged common ancestors
+=========
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+>>>>>>> master
+||||||| merged common ancestors
+>>>>>>>>> Temporary merge branch 2
+=======
+>>>>>>> 1f4566a7532686148fe144913a524f75ae2cd5d3
+=======
+>>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
+=======
+>>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
+||||||| merged common ancestors
+=======
     z-index: -15;
+>>>>>>> eea039f97a6b0ad96710b83757dbddd72dc918d9
 }
 
 .sun{
@@ -156,14 +191,64 @@ ul li a:hover{
 
 .balloon1{
 	background:url("../img/balloon1.png");
-	background-position: center -20vh;
+<<<<<<< HEAD
+	background-position: center;
+<<<<<<< HEAD
+	background-size: 100%;
+||||||| merged common ancestors
+<<<<<<< HEAD
+	background-size: 100%;
+=======
+>>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
 	background-repeat: no-repeat;
+<<<<<<< HEAD
+    overflow-x: hidden;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float3;
+    overflow-x: hidden;
+	background-repeat: no-repeat;
+||||||| merged common ancestors
+    overflow-x: hidden;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: float3;
+    overflow-x: hidden;
+||||||| merged common ancestors
+	background-size: 100%
+=======
+	background-size: 100%;
+>>>>>>> f8022c5cafd79add28bf89a1fb2fc0fde9a1a8cd
+||||||| merged common ancestors
+	background-position: center;
+=======
+	background-position: center -20vh;
+>>>>>>> eea039f97a6b0ad96710b83757dbddd72dc918d9
+	background-repeat: no-repeat;
+<<<<<<< HEAD
+=======
+  overflow-x: hidden;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
+||||||| merged common ancestors
+  overflow-x: hidden;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: float3;
+=======
     overflow-x: hidden;
     -webkit-animation-duration: 9s;
     animation-duration: 9s;
     -webkit-animation-name: float2;
     animation-name: float2;
+>>>>>>> eea039f97a6b0ad96710b83757dbddd72dc918d9
 	background-size: 100%;
+>>>>>>> 59ab08017ce749ebf796ca30145d29c8cb4b58e4
 }
 
 .balloon2{
