@@ -22,16 +22,15 @@ body{
 }
 
 header{
-	position: absolute;
-	z-index: 2;
-	opacity:0.6;
-	width:1046px;
+    width: 1046px;
 	max-width: 100%;
-	font-family: 'Walter Turncoat', cursive;
-	left: 50%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 	margin-top: 10px;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.6;
 }
 
 ul{
@@ -51,10 +50,12 @@ ul li{
 
 ul li a{
 	color:#f2db52;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
 	text-decoration: none;
     margin: 0;
+    padding: 2px 0;
 }
 
 ul li a:hover{
@@ -231,7 +232,8 @@ article{
 h1{
 	font-size: 30px;
 	color: white;
-	font-family: 'Walter Turncoat', cursive;
+	font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
 	z-index: 20;
 	text-align: center;
 	width:100%;
@@ -255,6 +257,7 @@ p{
     text-transform: uppercase;
     margin: 50px 0 0 0;
     display: inline-block;
+    padding: 4px 0;
 }
 
 .about a{
@@ -266,6 +269,7 @@ p{
 
 .about a:hover{
     border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
 }
 
 .activity a:hover{
@@ -315,14 +319,6 @@ p{
 	background-position: top;
 	margin-top: -40vh;
 	background-size: 100%;
-}
-
-
-/* JOIN US + MERCH */
-
-.join{
-	width:60%;
-	margin: 175px 20% 0 20%;
 }
 
 
