@@ -249,6 +249,15 @@ p{
 	font-size: 20px;
 }
 
+.about a{
+	border: 2px solid #fff;
+}
+
+.about a:hover{
+	border: 2px solid #333;
+	color:#333;
+}
+
 .calltoaction{
     color: white;
     font-size: 20px;
@@ -258,22 +267,16 @@ p{
     margin: 50px 0 0 0;
     display: inline-block;
     padding: 4px 0;
+		margin: 50px 0 0 0;
+		display: inline-block;
+		border: 2px solid #333;
+		padding:20px 25px;
+		border-radius: 3px;
 }
 
-.about a{
-}
-
-
-.activity a{
-}
-
-.about a:hover{
-    border-bottom: 2px solid #fff;
-    margin-bottom: -1px;
-}
-
-.activity a:hover{
-    border-bottom: 2px solid #333;
+.calltoaction:hover{
+border: 2px solid #fff;
+color: #fff;
 }
 
 .a-spacing{
