@@ -12,7 +12,7 @@ function parallaxScroll(){
   $('header').css('top',(0+(scrolled*.55))+'px');
   $('.clouds').css('top',(-200+(scrolled*.1))+'px');
   $('.mountains').css('top',(-250+(scrolled*.15))+'px');
-	$('.walkers').css('top',(-400+(scrolled*.25))+'px');
+	$('.walkers').css('top',(-600+(scrolled*.1))+'px');
 }
 
 $(window).scroll(function() {

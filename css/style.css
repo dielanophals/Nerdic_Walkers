@@ -269,14 +269,14 @@ p{
     padding: 4px 0;
 		margin: 50px 0 0 0;
 		display: inline-block;
-		border: 2px solid #333;
+		border: 2px solid #fff;
 		padding:20px 25px;
 		border-radius: 3px;
 }
 
 .calltoaction:hover{
-border: 2px solid #fff;
-color: #fff;
+	border: 2px solid #333;
+	color: #333;
 }
 
 .a-spacing{
@@ -287,10 +287,17 @@ color: #fff;
 /* ACTIVITY */
 
 .mountains_section{
-	background:url("../img/mountainair.png");
+	background:url("../img/bg.png");
 	height:150vh;
 	text-align: center;
 	background-size: cover;
+}
+
+.scene3_trees{
+	background:url("../img/scene3_trees.png");
+	background-size: 100%;
+	background-position: bottom;
+	height:100%;
 }
 
 .activity{
@@ -299,29 +306,22 @@ color: #fff;
 }
 
 .activity h1, .activity p, .activity a{
-	color:#333;
+	color:#fff;
 }
 
-.mountains{
-	background:url("../img/mountains.png");
-	background-position: center top 25vh;
-	height:120vh;
+.sun2{
+	background:url("../img/woods_sun.png");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top:400px;
-}
-
-.clouds{
-	background:url("../img/clouds.png");
-	background-size: 100%;
-	margin-top:400px;
+	background-size: cover;
+	height:100%;
 }
 
 .walkers{
 	background:url("../img/walkers.png");
-	background-position: top;
-	margin-top: -40vh;
-	background-size: 100%;
+	background-size: cover
+	background-repeat: no-repeat;
+	height:100vh;
 }
 
 
