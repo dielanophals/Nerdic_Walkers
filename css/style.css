@@ -230,7 +230,7 @@ article{
 }
 
 h1{
-	font-size: 30px;
+	font-size: 36px;
 	color: white;
 	font-family: 'Patrick Hand', cursive;
     letter-spacing: 1px;
@@ -318,10 +318,33 @@ p{
 }
 
 .walkers{
+	margin-top:-900px;
 	background:url("../img/walkers.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:100vh;
+}
+
+.walkers article{
+	position: absolute;
+	left: 50%;
+	top: 63%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width:100%;
+}
+
+form{
+	margin-top:20px;
+}
+
+form input{
+	border-radius: 3px;
+	border: none;
+	padding: 10px;
+	margin-top:10px;
+	width:200px;
 }
 
 
