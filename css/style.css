@@ -270,13 +270,13 @@ p{
     margin: 50px 0 0 0;
     display: inline-block;
     border: 2px solid #fff;
-    padding:10px 15px;
+    padding:10px 20px;
     border-radius: 3px;
 }
 
 .calltoaction:hover{
-	border: 2px solid #333;
-	color: #333;
+	border: 2px solid #f2db52 !important;
+	color: #f2db52 !important;
 }
 
 .a-spacing{
@@ -340,11 +340,14 @@ form{
 }
 
 form input{
+    width:200px;
+    background: rgba(255,255,255,0.1);
 	border-radius: 3px;
 	border: none;
 	padding: 10px;
 	margin-top:10px;
-	width:200px;
+    color: #fff;
+    outline: none;
 }
 
 
