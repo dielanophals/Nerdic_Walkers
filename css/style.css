@@ -287,10 +287,11 @@ p{
 /* ACTIVITY */
 
 .mountains_section{
-	background:url("../img/bg2.png");
+	background:url("../img/woods_sun.png");
 	height:150vh;
 	text-align: center;
 	background-size: cover;
+	background-position: center;
 }
 
 .scene3_trees{
@@ -327,7 +328,7 @@ p{
 
 .walkers .join_sec{
 	position: absolute;
-	top: 50%;
+	top: 42%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 	text-align: center;
