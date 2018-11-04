@@ -22,16 +22,15 @@ body{
 }
 
 header{
-	position: absolute;
-	z-index: 2;
-	opacity:0.6;
-	width:1046px;
+    width: 1046px;
 	max-width: 100%;
-	font-family: 'Patrick Hand', cursive;
-	left: 50%;
+    left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 	margin-top: 10px;
+	position: absolute;
+	z-index: 2;
+	opacity: 0.6;
 }
 
 ul{
@@ -51,10 +50,12 @@ ul li{
 
 ul li a{
 	color:#f2db52;
-    font-size: 26px;
-    font-family: 'Patrick Hand', cursive;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
 	text-decoration: none;
     margin: 0;
+    padding: 2px 0;
 }
 
 ul li a:hover{
@@ -215,12 +216,13 @@ ul li a:hover{
 }
 
 .about{
+    width:1024px;
 	position: absolute;
     left: 50%;
     top: 53%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-	width:1024px;
+	text-align: center;
 }
 
 article{
@@ -228,9 +230,10 @@ article{
 }
 
 h1{
-	font-size: 56px;
+	font-size: 36px;
 	color: white;
 	font-family: 'Patrick Hand', cursive;
+    letter-spacing: 1px;
 	z-index: 20;
 	text-align: center;
 	width:100%;
@@ -238,27 +241,42 @@ h1{
 
 p{
 	width:80%;
-  margin: 30px 10% 0 10%;
-  z-index: 20;
-  color:white;
-	text-align: center;
+    margin: 30px 10% 0 10%;
+    z-index: 20;
+    color:white;
 	line-height: 1.8;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 }
 
-a{
+.about a{
+	border: 2px solid #fff;
+}
+
+.about a:hover{
+	border: 2px solid #333;
+	color:#333;
+}
+
+.calltoaction{
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     margin: 50px 0 0 0;
     display: inline-block;
+    padding: 4px 0;
+    margin: 50px 0 0 0;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding:10px 20px;
+    border-radius: 3px;
 }
 
-a:hover{
-    border-bottom: 2px solid #333;
+.calltoaction:hover{
+	border: 2px solid #f2db52 !important;
+	color: #f2db52 !important;
 }
 
 .a-spacing{
@@ -269,11 +287,17 @@ a:hover{
 /* ACTIVITY */
 
 .mountains_section{
-	background:url("../img/woods_sun.png");
-	height:100vh;
+	background:url("../img/bg2.png");
+	height:150vh;
 	text-align: center;
 	background-size: cover;
-	background-position: center;
+}
+
+.scene3_trees{
+	background:url("../img/scene3_trees.png");
+	background-size: 100%;
+	background-position: bottom;
+	height:100%;
 }
 
 .activity{
@@ -282,37 +306,57 @@ a:hover{
 }
 
 .activity h1, .activity p, .activity a{
-	color:#333;
+	color:#fff;
 }
 
-.mountains{
-	background:url("../img/mountains.png");
-	background-position: center top 25vh;
-	height:120vh;
+.sun2{
+	background:url("../img/woods_sun.png");
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top:400px;
-}
-
-.clouds{
-	background:url("../img/clouds.png");
-	background-size: 100%;
-	margin-top:400px;
+	background-size: cover;
+	height:100%;
 }
 
 .walkers{
+	margin-top:-300px;
 	background:url("../img/walkers.png");
-	background-position: top;
-	margin-top: -40vh;
-	background-size: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:100vh;
 }
 
+.walkers .join_sec{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+	width: 60%;
+	margin: 175px 20% 0 20%;
+}
 
-/* JOIN US + MERCH */
+.join_text, .join{
+	width: 50%;
+	float:left;
+}
 
 .join{
-	width:60%;
-	margin: 175px 20% 0 20%;
+	margin-top:50px;
+}
+
+form{
+	margin-top:20px;
+}
+
+form input{
+  width:200px;
+  background: rgba(255,255,255,0.1);
+	border-radius: 3px;
+	border: none;
+	padding: 10px;
+	margin-top:10px;
+  color: #fff;
+  outline: none;
 }
 
 
@@ -423,5 +467,17 @@ a:hover{
 
 	.trees{
 		margin-top:80px;
+	}
+
+	.mountains_section{
+		height:100vh;
+	}
+
+	.scene3_trees{
+		background-size: cover;
+	}
+
+	.walkers{
+		margin-top: -105px;
 	}
 }
