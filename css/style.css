@@ -545,4 +545,87 @@ footer p{
 	.walkers{
 		margin-top: -105px;
 	}
+
+	.walkers .join_sec, .merch_sec{
+		width:80%;
+		margin: 175px 10% 0 10%;
+	}
+
+	.join {
+    margin-top: 130px;
+	}
+
+	.merch_sec{
+		margin-top:0;
+	}
+
+	.merch_img{
+		margin-top:120px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	ul{
+		margin-top:40px;
+	}
+
+	ul li{
+		width:25%;
+	}
+
+	.logo{
+		position: absolute;
+		width:150px;
+		text-align: center;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		margin-top:-40px;
+	}
+
+	.hills{
+		margin-top: 175px;
+	}
+
+	.forest{
+		height:100vh;
+	}
+
+	.about{
+		width:90%;
+	}
+
+	.activity{
+		width:100%;
+		margin: 0;
+		margin-top:60px;
+	}
+	p{
+		width:90%;
+		margin:30px 5% 0 5%;
+	}
+	.trees, .join_text, .merch_img, footer p{
+		display:none;
+	}
+
+	.join, .merch_text{
+		width:100%;
+		margin-top:0;
+	}
+
+	.merch p{
+		margin-top:0;
+	}
+
+	.walkers, .merch{
+		height:65vh;
+	}
+
+	.walkers .join_sec{
+		margin: 60px 10% 0 10%;
+	}
+
+	footer img:first-child{
+		margin-left:160px;
+	}
 }
