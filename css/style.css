@@ -325,23 +325,14 @@ p{
 	height:100vh;
 }
 
-.walkers .join_sec{
+.walkers article{
 	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+	left: 50%;
+	top: 63%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	text-align: center;
-	width: 60%;
-	margin: 175px 20% 0 20%;
-}
-
-.join_text, .join{
-	width: 50%;
-	float:left;
-}
-
-.join{
-	margin-top:50px;
+	width:100%;
 }
 
 form{
@@ -349,14 +340,14 @@ form{
 }
 
 form input{
-  width:200px;
-  background: rgba(255,255,255,0.1);
+    width:200px;
+    background: rgba(255,255,255,0.1);
 	border-radius: 3px;
 	border: none;
 	padding: 10px;
 	margin-top:10px;
-  color: #fff;
-  outline: none;
+    color: #fff;
+    outline: none;
 }
 
 
@@ -467,17 +458,5 @@ form input{
 
 	.trees{
 		margin-top:80px;
-	}
-
-	.mountains_section{
-		height:100vh;
-	}
-
-	.scene3_trees{
-		background-size: cover;
-	}
-
-	.walkers{
-		margin-top: -105px;
 	}
 }
