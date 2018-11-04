@@ -389,15 +389,21 @@ footer{
 	height:60px;
 }
 
+footer img:first-child{
+	margin-left:100px;
+}
+
 footer img{
 	float:left;
+	width:30px;
+	margin:15px;
 }
 
 footer p{
 	float:right;
 	color: #f2db52;
 	width:auto;
-	margin:10px 30px;
+	margin:10px 100px;
 }
 
 /* SCROLL UP */
