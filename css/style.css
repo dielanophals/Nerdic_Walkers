@@ -356,7 +356,7 @@ p{
 	transform: translateY(-50%);
 	text-align: center;
 	width: 60%;
-	margin: 175px 20% 0 20%;
+	margin: 18vh 20% 0 20%;
 }
 
 .join_text, .join{
@@ -660,11 +660,11 @@ footer p{
 		width:90%;
 		margin:30px 5% 0 5%;
 	}
-	.trees, .join_text, .merch_img, footer p{
+	.trees, .merch_img, footer p, .join_text span{
 		display:none;
 	}
 
-	.join, .merch_text{
+	.join, .merch_text, .join_text{
 		width:100%;
 		margin-top:0;
 	}
@@ -674,7 +674,7 @@ footer p{
 	}
 
 	.walkers, .merch{
-		height:65vh;
+		height:85vh;
 	}
 
 	.walkers .join_sec{
