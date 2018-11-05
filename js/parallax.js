@@ -21,13 +21,10 @@ $(window).scroll(function() {
   }
 });
 
-$( document ).ready(function() {
-  setTimeout(function(){
-    $('.load').css('display', 'block');
-  }, 2000);
+$(document).ready(function() {
 
   setTimeout(function(){
-    $('.loader').addClass('hide_loader');
+    $('.loader').fadeOut(400);
   }, 3000);
 
   setTimeout(function(){
