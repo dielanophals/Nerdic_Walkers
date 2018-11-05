@@ -1,7 +1,3 @@
-html{
-/*	scroll-behavior: smooth;*/
-}
-
 body{
 	overflow-x: hidden;
     cursor: url(../img/cursor.png), auto !important;
@@ -12,11 +8,7 @@ body{
 	width:100vw;
 	position: fixed;
 	z-index:10000;
-	transition: .5s;
-}
-
-.hide_loader{
-	opacity:0;
+    background: #fff;
 }
 
 .loader img{
@@ -28,12 +20,8 @@ body{
 	transform: translate(-50%, -50%);
 }
 
-.load{
-	display:none;
-}
 
 a, input{
-/*    cursor: url(../img/pointer.png), auto !important;*/
     cursor: url(../img/cursor.png), auto !important;
 }
 
