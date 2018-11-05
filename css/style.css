@@ -370,7 +370,7 @@ form input{
 .merch{
 	width:100%;
 	height:100vh;
-	background:url("../img/merch.png");
+	background-image:url("../img/merch.png");
 }
 
 .merch_sec{
@@ -405,7 +405,8 @@ form input{
 }
 
 footer{
-	background:url("../img/footer.png");
+    background-color: #ccc;
+	background-image:url("../img/footer.png");
 	background-size: cover;
 	background-position: top center;
 	float:left;
