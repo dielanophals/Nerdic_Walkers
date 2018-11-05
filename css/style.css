@@ -393,7 +393,7 @@ form input{
 	color:#333 !important;
 	width:50%;
 	margin:0 25%;
-	margin-top:100px;
+	margin-top:50px;
 }
 
 .merch a{
@@ -591,11 +591,14 @@ footer p{
 	}
 
 	.merch_img{
-		margin-top:120px;
+		margin-top:100px;
+	}
+	.merch{
+		background-size: cover;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	ul{
 		margin-top:40px;
 	}
