@@ -376,8 +376,13 @@ p{
 	float:left;
 }
 
+.join_text p{
+	width: 90%;
+	margin: 30px 5% 0 5%;
+}
+
 .join{
-	margin-top:50px;
+	margin-top:30px;
 }
 
 form{
