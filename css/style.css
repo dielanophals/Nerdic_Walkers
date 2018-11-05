@@ -7,6 +7,31 @@ body{
     cursor: url(../img/cursor.png), auto !important;
 }
 
+.loader{
+	height:100vh;
+	width:100vw;
+	position: fixed;
+	z-index:10000;
+	transition: .5s;
+}
+
+.hide_loader{
+	opacity:0;
+}
+
+.loader img{
+	width:20%;
+	position:absolute;
+	left: 50%;
+	top:50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.load{
+	display:none;
+}
+
 a, input{
 /*    cursor: url(../img/pointer.png), auto !important;*/
     cursor: url(../img/cursor.png), auto !important;
@@ -314,6 +339,10 @@ p{
 
 .activity h1, .activity p, .activity a{
 	color:#fff;
+}
+
+.underline{
+	text-decoration: underline;
 }
 
 .sun2{

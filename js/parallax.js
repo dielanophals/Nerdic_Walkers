@@ -20,3 +20,18 @@ $(window).scroll(function() {
     $(".arrow_link").removeClass("scrolled");
   }
 });
+
+$( document ).ready(function() {
+  setTimeout(function(){
+    $('.load').css('display', 'block');
+  }, 2000);
+
+  setTimeout(function(){
+    $('.loader').addClass('hide_loader');
+  }, 3000);
+
+  setTimeout(function(){
+    $('.loader').css('display', 'none');
+  }, 3500);
+
+});
